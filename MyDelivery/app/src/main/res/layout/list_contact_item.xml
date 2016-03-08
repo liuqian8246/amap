@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:id="@+id/imageView_contact"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刘谦"
+        android:id="@+id/textView_contact_name"
+        android:layout_marginStart="21dp"
+        android:layout_alignTop="@+id/imageView_contact"
+        android:layout_toEndOf="@+id/imageView_contact" />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/imageView_more_contact"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="圆通快递"
+        android:id="@+id/textView_company_name"
+        android:layout_below="@+id/textView_contact_name"
+        android:layout_alignStart="@+id/textView_contact_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13788888888"
+        android:id="@+id/textView_contact_phone"
+        android:layout_alignBottom="@+id/imageView_contact"
+        android:layout_alignStart="@+id/textView_company_name" />
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:id="@+id/imageView5"
+        android:layout_alignTop="@+id/imageView_more_contact"
+        android:layout_toStartOf="@+id/imageView_more_contact"
+        android:src="@drawable/iconfont_xinghao" />
+</RelativeLayout>

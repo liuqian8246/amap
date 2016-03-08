@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AboutUsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_aboutUs"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="?attr/colorPrimary"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/toolbar_aboutUs">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于我们"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:id="@+id/textView21"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_aboutUs"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/logo"
+            android:layout_marginTop="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="寄送快递包裹,是快递包裹的一趟旅行,"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView22"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/imageView6"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我们会以最快的速度把快递包裹的旅行日志传递给人们。"
+            android:id="@+id/textView23"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:text=""
+            android:id="@+id/textView24"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="访问官网"
+            android:gravity="center|left"
+            android:drawableLeft="@drawable/iconfont_shouye"
+            android:id="@+id/button_visit"
+            android:drawableRight="@drawable/iconfont_jiantour"
+            android:layout_below="@+id/textView24"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:text="New Text"
+            android:id="@+id/textView25"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/button_visit"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关注微博"
+            android:gravity="center|left"
+            android:drawableLeft="@drawable/iconfont_weibo"
+            android:drawableRight="@drawable/iconfont_jiantour"
+            android:id="@+id/button_focus"
+            android:layout_below="@+id/textView25"
+            android:layout_toStartOf="@+id/imageView6"
+            android:layout_alignEnd="@+id/textView23"
+            android:layout_marginTop="12dp"
+            style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:text=""
+            android:background="@android:color/darker_gray"
+            android:id="@+id/textView26"
+            android:layout_below="@+id/button_focus"
+            android:layout_toStartOf="@+id/imageView6"
+            android:layout_alignEnd="@+id/textView23"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关注微信"
+            android:gravity="center|left"
+            android:drawableLeft="@drawable/iconfont_weixin"
+            android:id="@+id/button_focus_weixin"
+            android:layout_below="@+id/textView26"
+            android:layout_toStartOf="@+id/imageView6"
+            android:layout_alignEnd="@+id/textView23"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_delivery_record"
+            android:icon="@drawable/iconfont_iconset"
+            android:title="@string/delivery_record" />
+        <item
+            android:id="@+id/nav_delivery_query"
+            android:icon="@drawable/iconfont_search1"
+            android:title="@string/delivery_query" />
+        <item
+            android:id="@+id/nav_delivery_send"
+            android:icon="@drawable/iconfont_personalcenter"
+            android:title="@string/delivery_send" />
+        <item
+            android:id="@+id/nav_delivery_contact"
+            android:icon="@drawable/iconfont_tongxunlu"
+            android:title="@string/delivery_my_contacts" />
+        <item
+            android:id="@+id/nav_delivery_setting"
+            android:icon="@drawable/iconfont_shezhi"
+            android:title="@string/delivery_setting" />
+
+    </group>
+
+    <item android:title="@string/delivery_law"
+        android:id="@+id/nav_delivery_law">
+        <menu>
+            <item android:title="@string/delivery_tuijian"
+                android:id="@+id/nav_delivery_tuijian"
+                android:icon="@drawable/iconfont_tuijian"/>
+        </menu>
+    </item>
+</menu>

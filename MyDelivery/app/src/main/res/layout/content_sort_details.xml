@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="排序"
+        android:id="@+id/textView"
+        android:layout_below="@+id/setting_toolbar"
+        android:layout_alignLeft="@+id/setting_toolbar"
+        android:layout_alignStart="@+id/setting_toolbar"
+        android:paddingLeft="8dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorBackground"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/showType"
+        android:background="@drawable/linearlayout_bg">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="快递详情顺序"
+            android:id="@+id/textView2"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="按照时间顺序显示"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView"
+            android:id="@+id/textView_showType" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/iconfont_jiantou"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="New Text"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/linearLayout_sort_detail"
+        android:layout_alignLeft="@+id/linearLayout_sort_detail"
+        android:layout_alignStart="@+id/linearLayout_sort_detail"
+        android:background="@color/colorBackground"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:id="@+id/linearLayout_sort_kd"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/linearlayout_bg">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="我的快递单排序"
+            android:id="@+id/textView4"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="添加时间"
+            android:paddingLeft="8dp"
+            android:id="@+id/textView_kd_showType"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/iconfont_jiantou"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+    </LinearLayout>
+
+</LinearLayout>

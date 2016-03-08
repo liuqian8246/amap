@@ -1,0 +1,35 @@
+﻿﻿<resources>
+    <string name="app_name">快捷快递</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_drawer">打开</string>
+    <string name="close_drawer">关闭</string>
+    <string name="delivery_login">登录</string>
+    <string name="delivery_login2">登录快捷快递</string>
+    <string name="delivery_record">我的快递记录</string>
+    <string name="delivery_query">查询快递</string>
+    <string name="delivery_send">寄快递</string>
+    <string name="delivery_my_contacts">我的通讯录</string>
+    <string name="delivery_notice">通知中心</string>
+    <string name="delivery_feedBack">反馈</string>
+    <string name="delivery_setting">设置</string>
+    <string name="delivery_aboutUs">关于我们</string>
+    <string name="delivery_law">法律声明</string>
+    <string name="delivery_tuijian">推荐</string>
+    <string name="delivery_version">v1.0.0 © www.expressDelivery.com</string>
+    <string name="add_people">添加</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_next">下一步</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="scan_text">将条形码/二维码放入框内</string>
+</resources>
